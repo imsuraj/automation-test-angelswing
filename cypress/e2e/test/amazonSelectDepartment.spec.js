@@ -59,6 +59,8 @@ describe('Amazon Department Selection with Unique Selection', () => {
             const selectedOption = validOptions[randomIndex].text;
             cy.get('#searchDropdownBox').select(selectedOption, { force: true });
 
+            cy.wait(5000);
+
             // verify the selected option
             cy.get('#searchDropdownBox option:selected')
                 .should('have.text', selectedOption)

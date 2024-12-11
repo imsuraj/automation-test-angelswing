@@ -45,6 +45,8 @@ describe('Amazon Department Selection with Retry', () => {
             const optionText = options[randomIndex].text;
             cy.get('#searchDropdownBox').select(optionText, { force: true });
 
+            cy.wait(5000);
+
             // Step 7: verify the selected option
             cy.get('#searchDropdownBox option:selected')
                 .should('have.text', optionText)

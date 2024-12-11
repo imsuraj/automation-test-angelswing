@@ -3,6 +3,7 @@ const fs = require("fs");
 const path = require("path");
 
 module.exports = defineConfig({
+  video: true,
   e2e: {
     baseUrl: 'https://www.amazon.com/',
     setupNodeEvents(on, config) {
