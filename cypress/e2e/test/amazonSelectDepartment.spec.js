@@ -1,7 +1,7 @@
 describe('Amazon Department Selection with Unique Selection', () => {
-
     // number of retry attempts
     const retryAttempts = 3;
+
     // initialize previous selection value
     let previousSelection = '';
 

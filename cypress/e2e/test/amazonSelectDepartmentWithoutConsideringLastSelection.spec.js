@@ -1,4 +1,4 @@
-describe('Amazon Department Selection with Retry', () => {
+describe('Amazon Department Selection', () => {
     const retryAttempts = 3; // Number of retry attempts
 
     function selectDepartment(attempt = 1) {
