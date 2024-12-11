@@ -8,7 +8,7 @@ This repository contains Cypress tests for selecting departments from the Amazon
 
 ### Prerequisites
 - Node.js (v18.0 or higher)
-- npm or yarn (for installing dependencies)
+- npm (for installing dependencies)
 - Cypress (installed as a project dependency)
 
 ### Installation
